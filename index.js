@@ -9,7 +9,6 @@ let config = {
   output: "model"
 }
 
-
 FastText.train("supervised", config, function (success, error) {
 
   if(error) {
