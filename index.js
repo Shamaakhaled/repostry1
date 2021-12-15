@@ -31,6 +31,7 @@ app.get('/fasttext/', function(req, res) {
     res.send(getFastTextResults(statement));
 });
 
+
 function getFastTextResults(statement) {
 	//predict returns an array with the input and predictions for best cateogires
 	FastText.predict(
